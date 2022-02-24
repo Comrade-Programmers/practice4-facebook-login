@@ -1,0 +1,148 @@
+body{
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#app{
+
+}
+
+.page{
+    background: #f0f2f5;
+    min-height: 640px;
+    padding-top: 72px;
+}
+
+.page .container{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container{
+    max-width: 980px;
+    margin: 0px auto;
+    padding: 20px 10px;
+}
+
+.brand-side{
+    flex: 1;
+    margin-right: 50px;
+}
+
+.logo-wrapper{
+    padding: 112px 0 16px;
+}
+
+.brand-side img{
+    height: 106px;
+    margin: -28px;
+}
+
+.brand-side > .fb-intro{
+    font-weight: 400;
+    margin-top: 0px;
+    font-size: 28px;
+}
+
+.form-wrapper{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-wrapper .card{
+    width: 370px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    background: white;
+    border-radius: 8px;
+    padding: 20px 20px 28px;
+    margin: 40px 10px 0px;
+}
+
+.form-wrapper form{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.form-wrapper form input{
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    padding: 14px 16px;
+}
+
+.form-wrapper form .btn-submit{
+    background: #1877f2;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+}
+.form-wrapper form .forgotten-pass{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 16px;
+    font-size: 14px;
+    color: #1877f2;
+}
+.forgotten-pass:hover{
+    text-decoration: underline !important;
+}
+
+.btn-create-account{
+    width: fit-content;
+    background: #42b72a;
+    color: white;
+    padding: 14px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+    text-decoration: none;
+    margin: auto;
+}
+
+.create-page{
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+.create-page a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.create-page a:hover{
+    text-decoration: underline !important;
+}
+
+.hr{
+    width: 100%;
+    border: 1px solid #dadde1;
+    margin: 10px 0px;
+}
+
+footer a{
+    color: #8a8d91;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+footer a:not(:last-child){
+    margin-right: 10px;
+}
+
+footer a:hover{
+    text-decoration: underline !important;
+}
+
+.copyright{
+    margin-top: 30px;
+    color: #8a8d91;
+    font-size: 12px;
+}
